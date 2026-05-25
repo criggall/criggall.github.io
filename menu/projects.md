@@ -4,4 +4,4 @@ title: Projects
 permalink: /projects
 ---
 
-This page will be filled with my projects. Mostly physics... mostly harmless.
+This page has not left the lab yet.
