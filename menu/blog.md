@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: Life, the Universe, and Everything
-subtitle: A Blog
+title: "Life, the Universe, and Everything: A Blog"
 permalink: /blog
 ---
