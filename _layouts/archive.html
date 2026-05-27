@@ -31,9 +31,9 @@ layout: default
 
 {% for post in site.posts %}
   <div class="posts-container">
-    <h2>
-      <a href="{{ site.github.url }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+    <h3>
+      <a> {{ post.title }} </a>
+    </h3>
     {% if post.image %}
       <div class="thumbnail-container">
         <a href="{{ site.github.url }}{{ post.url }}">
