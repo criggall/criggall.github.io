@@ -22,12 +22,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
-  {% if page.title %}
-      {% if page.title == "HFOFO Snake" %}
-        <link rel="icon" href="/assets/favicons/for-hfofo-page/favicon.ico?v=10">
-      {% else %}
-        <link rel="icon" href="/assets/favicons/favicon.ico?v=10">
-      {% endif %}
+  {% if page.url == '/hfofo/' %}
+    <link rel="icon" href="/assets/favicons/for-hfofo-page/favicon.ico?v=10">
   {% else %}
     <link rel="icon" href="/assets/favicons/favicon.ico?v=10">
   {% endif %}
